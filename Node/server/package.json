@@ -1,0 +1,10 @@
+{
+  "name": "simple-http-server",
+  "version": "1.0.0",
+  "description": "A simple Node.js HTTP server example",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

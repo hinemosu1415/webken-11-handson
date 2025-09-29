@@ -1,0 +1,48 @@
+/* 全体のスタイル */
+body {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* タイトル */
+h1 {
+  margin-bottom: 1.5rem;
+}
+
+/* Todoリスト */
+#todo-list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 400px;
+}
+
+#todo-list li {
+  background: #fff;
+  margin: 0.5rem 0;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 入力欄と追加ボタン */
+#add-input {
+  width: 70%;
+  max-width: 280px;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.add-todo {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background: #54b987;
+  border-radius: 6px;
+}
